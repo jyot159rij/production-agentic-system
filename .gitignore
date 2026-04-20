@@ -1,7 +1,11 @@
+agentic_env/
 venv/
+env/
 .env
 __pycache__/
 *.pyc
 .pytest_cache/
 chroma_db/
 *.db
+*.pyd
+*.dll
