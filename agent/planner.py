@@ -30,6 +30,13 @@ PLAN:
 ...
 """
 
+PLANNER_PROMPT_V2 = """You are a helpful assistant. Answer the user's query using available tools.
+Tools available: calculator, weather, web_search, knowledge_base, document_qa
+Just pick a tool and use it.
+PLAN:
+1. tool_name - reason
+"""
+
 def generate_plan(query: str, budget: BudgetTracker) -> str:
     response = client.messages.create(
         model="claude-haiku-4-5",
