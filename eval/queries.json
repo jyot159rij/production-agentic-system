@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "query": "What is 25 multiplied by 48, then add 150 to the result?",
+      "expected_tools": ["calculator"],
+      "expected_answer_contains": ["1200", "1350",  "1,200", "1,350"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "query": "What is the weather in London and convert the temperature to Fahrenheit?",
+      "expected_tools": ["weather", "calculator"],
+      "expected_answer_contains": ["London", "Fahrenheit"],
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "query": "Search the web for the latest Python version and tell me when it was released?",
+      "expected_tools": ["web_search"],
+      "expected_answer_contains": ["Python"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "query": "What does our knowledge base say about Product X pricing and how many users does it have?",
+      "expected_tools": ["knowledge_base"],
+      "expected_answer_contains": ["Product X", "users"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "query": "Summarise our internal Q3 report and search the web for current UK inflation rate",
+      "expected_tools": ["document_qa", "web_search"],
+      "expected_answer_contains": ["Q3", "inflation"],
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "query": "What is the weather in Paris and is it a good day for outdoor activities? Search for things to do in Paris outdoors.",
+      "expected_tools": ["weather", "web_search"],
+      "expected_answer_contains": ["Paris"],
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "query": "If I invest 5000 GBP at 7 percent annual interest for 10 years, what is the final amount using compound interest formula?",
+      "expected_tools": ["calculator"],
+      "expected_answer_contains": ["9000", "9835", "9836", "9"],
+      "difficulty": "hard"
+    },
+    {
+      "id": 8,
+      "query": "What is our company technology stack according to internal knowledge base and search the web for the latest version of FastAPI?",
+      "expected_tools": ["knowledge_base", "web_search"],
+      "expected_answer_contains": ["FastAPI", "Python"],
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "query": "What is the weather in Tokyo, convert temperature to Fahrenheit, and search for top tourist attractions there?",
+      "expected_tools": ["weather", "calculator", "web_search"],
+      "expected_answer_contains": ["Tokyo"],
+      "difficulty": "hard"
+    },
+    {
+      "id": 10,
+      "query": "What does our Q3 document say about revenue and what is 30 percent growth on top of that number?",
+      "expected_tools": ["document_qa", "calculator"],
+      "expected_answer_contains": ["revenue", "2.4", "3.12"],
+      "difficulty": "hard"
+    }
+  ]
