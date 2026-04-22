@@ -56,8 +56,8 @@ pip install -r requirements.txt
 
 Create a `.env` file in the project root:
 
-ANTHROPIC_API_KEY=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
-TAVILY_API_KEY=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
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+TAVILY_API_KEY=your_tavily_api_key_here
 
 ### Set up knowledge base
 
