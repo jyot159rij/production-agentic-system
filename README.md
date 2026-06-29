@@ -2,8 +2,6 @@
 
 A production-grade AI agent that orchestrates 5 tools to answer multi-step queries reliably.
 
-Built for the LEC AI Engineer assignment.
-
 ## What it does
 
 - Accepts a natural language query via REST API
